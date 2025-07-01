@@ -37,14 +37,13 @@
       border-radius: 5px;
       cursor: pointer;
     }
-    .grid {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-between;
-      
+	.grid {
+	  display: flex;
+	  flex-direction: column;
+      align-items: center;
     }
     .box {
-      width: 30%;
+      width: 300px;
       background: #86212B;
       margin: 10px 0;
       padding: 15px;
